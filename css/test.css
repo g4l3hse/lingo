@@ -1,0 +1,114 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+.start {
+      width: 300px;
+      height: 100px;
+      font-size: 30px;
+      border-radius: 50px;
+      border: none;
+      color: white;
+      background-color: #9747FF;
+      margin-top: 20px;
+      cursor: pointer;
+
+}
+
+.start:hover {
+        background-color: #EFAEFF;
+        background-size: cover;
+        background-position-y: -55px;
+        background-image: url("../images/octo.png");
+}
+
+#back {
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: white;
+    background-color: #9747FF;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#back:hover {
+        background-color: #EFAEFF;
+}
+
+.first-test {
+  padding: 2vh;
+  padding-top: 0;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.backimg-test {
+        background-color: #eaeeff;
+        border-radius: 100px;
+        height: 650px;
+        width: auto;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+}
+
+
+.test-desc {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 2vw;
+  padding: 2vw;
+  line-height: 2.5vw;
+  text-align: left;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+  .test-desc {
+      font-size: 2.5vw;
+      line-height: 3.5vw;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .test-desc {
+      font-size: 3.5vw;
+      line-height: 4vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .test-desc {
+      font-size: 4vw;
+      line-height: 5vw;
+      width: 70%;
+  }
+
+  .backimg-test {
+      height: auto;
+      padding: 3vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .test-desc {
+      font-size: 4vw;
+      line-height: 5vw;
+      width: 70%;
+  }
+}
